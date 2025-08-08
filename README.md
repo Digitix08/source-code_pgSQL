@@ -19,3 +19,6 @@ This script actually has the following things fixed:
 3. I fixed the style of the pages, I personally didnt like it.
 
 If you want to edit the pages you only need to keep the forms and the PHP code
+
+# Other info
+While there exists a otp.php file, it wasn't bound to anything (even in original repo!) and it seemed to be for a OneTimePass, but there is no code (even in original repo!) to handle that
