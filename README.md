@@ -1,5 +1,5 @@
 # source-code for PostgreSQL
-source-code login page Modified for pgsql
+source-code login system, modified for pgsql
 
 Replace the "dummy" text with your pgSQL user and do the same thing for pass and dbname
 
