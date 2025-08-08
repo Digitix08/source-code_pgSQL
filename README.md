@@ -1,9 +1,14 @@
 # source-code for PostgreSQL
 source-code login system, modified for pgsql
 
+#Prerequisites
+PHP install (tested working on 8.2.29 and 8.4)
+PostgreSQL install (tested working on PGSQL15 and 17)
+
+#How to use
 Replace the "dummy" text with your pgSQL user and do the same thing for pass and dbname
 
-The script expects a "users" table with username, password and email columns of a string type
+The script expects a "users" table with username, password and email columns of a string type, owned by the user provided
 
 This script actually has the following things fixed:
 1. The password gets encrypted before getting saved
