@@ -1,6 +1,8 @@
 # source-code for PostgreSQL
 source-code login system, modified for pgsql
 
+Tested working on ie6 and higher, modern chrome and firefox
+
 # Prerequisites
 PHP install (tested working on 8.2.29 and 8.4)
 
