@@ -18,7 +18,7 @@ if (!isset($_SESSION['loggedin'])) {
 </head>
 
 <body>
-<div id="container-top">
+<div class="container-top">
   <!-- Header -->
   <table width="100%">
    <tr>
@@ -33,7 +33,7 @@ if (!isset($_SESSION['loggedin'])) {
         <input name="Submit1" type="submit" value="submit">
       </form>	
     </td>
-    <td id="top-links">
+    <td class="top-links">
       <a href="#">SiteName</a> |
       <a href="#">About</a> |
       <a href="logout.php">Logout</a>

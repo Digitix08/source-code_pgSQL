@@ -1,0 +1,33 @@
+﻿
+
+body {
+  color: #black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container-top {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #eeeeee;
+  padding: 20px;
+  border: 1px solid #444;
+  text-align: left;
+  display: block;
+}
+
+
+/* New header area */
+.top-links {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.top-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+
+}
