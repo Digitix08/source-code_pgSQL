@@ -1,7 +1,14 @@
 <?php
 
-session_start();
+if (session_status() === PHP_SESSION_NONE) session_start();
 
 error_reporting(E_ALL);
 
-$conn = mysqli_connect('localhost', 'root', '', 'xyz');
+$host = "host=localhost";
+$port = "port=5432"; // default PostgreSQL port
+$dbname = "dbname=users";
+$user = "user=dummy";  // replace with your PostgreSQL username
+$password = "password=dummy"; // replace with your PostgreSQL password
+$conn_string = "$host $port $dbname $user $password";
+$conn = pg_connect($conn_string);
+?>
