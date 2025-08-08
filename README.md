@@ -9,4 +9,5 @@ This script actually has the following things fixed:
 1. The password gets encrypted before getting saved
 2. The textboxes should be SQL injection proof
 3. I fixed the style of the pages, I personally didnt like it.
+
 If you want to edit the pages you only need to keep the forms and the PHP code
