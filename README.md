@@ -16,7 +16,8 @@ The script expects a "users" table with username, password and email columns of 
 This script actually has the following things fixed:
 1. The password gets encrypted before getting saved
 2. The textboxes should be SQL injection proof
-3. I fixed the style of the pages, I personally didnt like it.
+
+One other thing to note is that while I fixed the style of the pages because I didnt like it, it should still work with the original frontend by ms181 (the only file actually changed was loading.php).
 
 If you want to edit the pages you only need to keep the forms and the PHP code
 
